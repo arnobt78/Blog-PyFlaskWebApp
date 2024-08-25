@@ -1,7 +1,13 @@
-# Flask-Blog-Tutorial
-A blog application in python using Flask.
 
-# Development
+## Blog-PyFlaskWebApp
+
+The website is a basic blog application where users may authenticate, log in, and post content. Other users can then like and comment on the article, or the user can delete the post and comments. (this application is still on going project to extend my knowledge)
+
+## Keywords
+
+Using Python with Flask Framework, HTML, CSS, Bootstrap, Fontawesome, Database.
+
+## Development
 
 ## Create venv
 
