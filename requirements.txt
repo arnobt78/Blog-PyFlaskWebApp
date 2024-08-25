@@ -1,0 +1,17 @@
+flask
+Flask-SQLAlchemy
+flask-login
+flask_whooshalchemy
+blinker           
+click             
+greenlet          
+itsdangerous      
+Jinja2            
+MarkupSafe        
+pip               
+setuptools        
+SQLAlchemy        
+typing_extensions 
+Werkzeug          
+Whoosh
+

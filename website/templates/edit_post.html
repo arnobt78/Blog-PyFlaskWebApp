@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block title %}{{user.username}}'s Post Update{% endblock %}
+{% block content %} 
+<h1 align="center">Update {{user.username}}'s Post</h1>
+
+<form action="/edit-post/{{post_edit.id}}" method="POST">
+  <textarea name="text" id="text" class="form-control">{{post_edit.text}}</textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-lg btn-primary">Update</button>
+  </div>
+</form>
+<br />
+<div align="center">
+  <a href="/home"
+    ><button type="button" class="btn btn-lg btn-secondary">Back</button></a
+  >
+</div>
+{% endblock %}
+
